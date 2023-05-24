@@ -1,0 +1,19 @@
+version: '3.3'
+services:
+  db:
+    container_name: db_mysql
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_DATABASE: db
+      MYSQL_USER: dbmario
+      MYSQL_PASSWORD: Sinclave1
+      MYSQL_ROOT_PASSWORD: Sinclave1
+    ports:
+      - 3306:3306
+    expose:
+      - 3306
+    volumes:
+      - my-db:/var/lib/mysql
+volumes:
+  my-db:

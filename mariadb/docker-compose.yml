@@ -1,0 +1,16 @@
+version: '3'
+services:
+  db:
+    container_name: db_mariadb
+    image: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: Sinclave1!
+      MYSQL_DATABASE: dbmario
+      MYSQL_USER: user
+      MYSQL_PASSWORD: Sinclave1!
+    volumes:
+      - data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+volumes:
+  data:
