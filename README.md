@@ -3,10 +3,10 @@ Este repositorio nos ayudará a como configurar las diferentes bases de datos a 
 # Estructura del repositorio
 📃.gitignore\
 📂 postgres/\
-  📃docker-compose.yml\
+  - 📃docker-compose.yml\
 📂 sql-server/\
-  📃 docker-compose.yml\
+  - 📃 docker-compose.yml\
 📂 mariadb/\
-  📃 docker-compose.yml\
+  - 📃 docker-compose.yml\
 📂 mysql\
-  📃 docker-compose.yml\
+  - 📃 docker-compose.yml\
