@@ -7,7 +7,7 @@ git clone https://github.com/marioguzmanb/db_connect.git
 ```
 Cambiarse de carpeta al servidor que queremos instalar MariaDB:
 ```$console
-cd sql-server/
+cd mysql/
 ```
 Ejecutar el Docker-Compose para que instale la imagen oficial del servidor en su laptop (Se recomienda cambiar la clave del servidor que se encuentra dentro del archivo **docker-compose.yml**, respetando las reglas que se definen en cada imagen, que contenga mayúscula, números y simbolos)
 ```$console
