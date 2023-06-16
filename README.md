@@ -2,11 +2,11 @@
 Este repositorio nos ayudará a como configurar las diferentes bases de datos a través de una imagen de [docker]('https://www.docker.com/products/docker-desktop/')
 # Estructura del repositorio
 📃.gitignore\
-📂 postgres/\
+📂 postgres/
   - 📃docker-compose.yml\
-📂 sql-server/\
+📂 sql-server/
   - 📃 docker-compose.yml\
-📂 mariadb/\
+📂 mariadb/
   - 📃 docker-compose.yml\
-📂 mysql\
+📂 mysql
   - 📃 docker-compose.yml\
