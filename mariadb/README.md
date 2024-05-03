@@ -5,7 +5,7 @@ Se requiere clonar el repositorio:
 ```$console
 git clone https://github.com/marioguzmanb/db_connect.git
 ```
-Cambiarse de carpeta al servidor que queremos instalar MariaDB:
+Cambiarse de carpeta al servidor que queremos instalar `MariaDB`:
 ```$console
 cd mariadb/
 ```
@@ -13,4 +13,4 @@ Ejecutar el Docker-Compose para que instale la imagen oficial del servidor en su
 ```$console
 docker-compose up
 ```
-Luego tendremos el contenedor con MariaDB Instalado. Se recomienda tener instalado [DBeaver](https://dbeaver.io) y crear la conexión.
+Luego tendremos el contenedor con `MariaDB` Instalado. Se recomienda tener instalado [DBeaver](https://dbeaver.io) y crear la conexión.
