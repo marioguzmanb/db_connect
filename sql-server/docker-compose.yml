@@ -3,7 +3,7 @@ version: '3.1'
 services:
   sqlserver:
     container_name: db_sqlserver
-    image: mcr.microsoft.com/mssql/server:2022-latest 
+    image: mcr.microsoft.com/mssql/server:2025-latest
     environment:
       ACCEPT_EULA: Y
       MSSQL_SA_PASSWORD: Sinclave1!
